@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Starbucks</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="nav1">
+                <img src="./Images/logo.png" alt="">
+            </div>
+            <div class="nav2">
+                <ul>
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>Whats's New</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="images">
+            <img src="./Images/thumb1.png" alt="" onclick="ImgChange('./Images/img1.png');ChanegColor('#017143')">
+            <img src="./Images/thumb2.png" alt="" onclick="ImgChange('./Images/img2.png');ChanegColor('#eb7495')">
+            <img src="./Images/thumb3.png" alt="" onclick="ImgChange('./Images/img3.png');ChanegColor('#d752b1')">
+        </div>
+        <div class="hero">
+            <div class="circle"></div>
+            <div class="left">
+                <h1>It's not just Coffee</h1>
+                <h1>It's <span class="stb">Starbucks</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsa eius quasi impedit voluptatum! Veritatis dolorum unde non quo cumque similique ipsa minima saepe, beatae, amet obcaecati? Quam, doloremque iste.</p>
+                <button class="btn">LEARN MORE</button>
+            </div>
+            <div class="right">
+                <div class="logos">
+                    <i class="ri-facebook-fill"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-twitter-line"></i>
+                </div>
+                <img src="./Images/img1.png" alt="" class="Starbucks">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
